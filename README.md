@@ -1,3 +1,5 @@
+![Chatbot](https://github.com/DanielsWebDevelopment/JavaScript-ChatBot/assets/129445203/b993abb1-6642-4400-b4ed-0dc833c1d049)
+
 # JavaScript-ChatBot
 This project was done as a clone project 
 
