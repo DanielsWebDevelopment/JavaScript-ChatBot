@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Bangers&family=Bebas+Neue&family=Carlito:wght@700&family=Castoro+Titling&family=Cormorant+Garamond&family=Fjalla+One&family=Gilda+Display&family=Gloock&family=Goblin+One&family=Holtwood+One+SC&family=Inter&family=Kanit&family=Konkhmer+Sleokchher&family=Koulen&family=Lilita+One&family=Merriweather:ital@0;1&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;700&family=Oswald:wght@200;400&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&family=Rajdhani:wght@700&family=Righteous&family=Roboto+Condensed:ital@1&family=Roboto:wght@300&family=Ruda:wght@600&family=Rufina&family=Russo+One&family=Shrikhand&family=Slabo+27px&family=Squada+One&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/5831b8626a.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript ChatBot</title>
+</head>
+<body class="show-chatbot">
+    <button class="chatbot-toggler">
+        <i class="fa-solid fa-comment"></i>
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+        </header>
+        <ul class="chatbox">
+            <i class="fa-solid fa-xmark"></i>
+            <li class="chat incoming">
+                <i class="fa-solid fa-person"></i>
+                <p>Hi There, <br>How can i help you today?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message"></textarea>
+            <span id="send-btn"><i class="fa-solid fa-person"></i></span>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
